@@ -92,13 +92,13 @@ function enemyAttack(){
     
     if (rAttack==1){
         attackEnemy = "Fuego 🔥"
-        alert("El enemigo ha atacado con Fuego.")
+        alert("El enemigo ha atacado con Fuego 🔥.")
     } else if (rAttack==2){
         attackEnemy = "Agua 💧"
-        alert("El enemigo ha atacado con Agua.")
+        alert("El enemigo ha atacado con Agua 💧.")
     } else{
         attackEnemy = "Tierra 🌱"
-        alert("El enemigo ha atacado con Tierra.")
+        alert("El enemigo ha atacado con Tierra 🌱.")
     }
 
     battle()
@@ -106,19 +106,19 @@ function enemyAttack(){
 
 function attackFire(){
     attackPlayer="Fuego 🔥"
-    alert(attackPlayer)
+    alert("Has atacado con " + attackPlayer)
     enemyAttack()
 }
 
 function attackWater(){
     attackPlayer="Agua 💧"
-    alert(attackPlayer)
+    alert("Has atacado con " + attackPlayer)
     enemyAttack()
 }
 
 function attackEarth(){
     attackPlayer="Tierra 🌱"
-    alert(attackPlayer)
+    alert("Has atacado con " + attackPlayer)
     enemyAttack()
 }
 
